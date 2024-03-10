@@ -1,0 +1,28 @@
+
+.main-column-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-column-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    text-align: justify;
+}
+.text-column{
+    width: 440px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 420px) {
+    .main-column-one, .main-column-two{
+        flex-direction: column;
+    }
+    .main-column-two{
+        flex-direction: column-reverse;
+    }
+}

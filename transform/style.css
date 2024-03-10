@@ -1,0 +1,27 @@
+body{
+    margin-left: 100px;
+}
+.container, .box{
+    width: 300px;
+    height: 300px;
+    
+}
+.box{
+    background-color: aqua;
+    border: 2px solid chartreuse;
+    /* transform: scale(0.25, 0.5); */
+    /* transform: rotate(45deg); */
+    /* transform:scale(0.5) translateX(120px) rotate(45deg); */
+    
+    /* display: none; */
+}
+.box:hover{
+    transform:scale(0.25) rotate(45deg);
+}
+.container{
+    background-color: blanchedalmond;
+    border: 2px solid crimson;
+    /* transform: scale(0.5); */
+    
+    
+}

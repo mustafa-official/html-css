@@ -1,0 +1,17 @@
+.audio{
+    text-align: center;
+}
+#section-two{
+    width: 400px;
+    font-size: 18px;
+    
+}
+#discription{
+    width: 300px;
+    font-size: 20px;
+    
+}
+.new-iframe{
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+}

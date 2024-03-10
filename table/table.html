@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using callspan or rowspan</title>
+    <link rel="stylesheet" href="styles/dropdown.css">
+    <style>
+        table{
+            border-collapse: collapse;
+
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="dropdown.html">Home</a></li>
+                <li><a href="index.html">Table one</a></li>
+                <li><a href="table-two.html">Table two</a></li>
+                <li><a href="table.html">Table three</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">Row Span</td>
+                <td colspan="3" style="text-align: center;">Col span</td>
+                
+            </tr>
+            <tr>
+                
+                <td colspan="2">Col Span</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                
+                <td rowspan="3">Row span</td>
+                
+            </tr>
+            <tr>
+                
+                <td colspan="2">col span</td>
+                
+                
+            </tr>
+            <tr>
+                
+                <td>2</td>
+                <td>3</td>
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

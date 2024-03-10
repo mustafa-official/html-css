@@ -1,0 +1,84 @@
+/* @keyframes myBall {
+    from{
+        left: 0;
+        
+    }
+    to{
+        left: 650px;
+        background-color: chartreuse;
+    }
+    
+} */
+@keyframes bounce {
+    0%{
+        top:0px;
+        left: 0px;
+        
+    }
+    25%{
+        top:150px;
+        left: 200px;
+        background-color: chartreuse;
+        
+    }
+    50%{
+        left: 400px;
+        top: 0px;
+        background-color: deeppink;
+        
+        
+    }
+    100%{
+        left: 600px;
+        top: 150px;
+        background-color: blueviolet;
+        /* transform: scale(1.5); */
+    }
+    
+}
+@keyframes football {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        left: 350px;
+        top: 300px;
+        transform: rotate(60deg) scale(1.5);
+    }
+    100%{
+        top: 0px;
+        left: 800px;
+        transform: scale(1);
+        
+    }
+}   
+.box{
+    width: 650px;
+    height:200px ;
+    border: 2px solid rebeccapurple;
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    position: relative;
+    animation: bounce 4s ease-in-out 1s infinite alternate;
+    /* transition: transform 0s; */
+}
+.box2{
+    width: 900px;
+    height: 415px;
+    border: 2px solid crimson;
+}
+.ball2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: football 2s ease-in-out 1s infinite alternate ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+img{
+    width: 100%;
+}

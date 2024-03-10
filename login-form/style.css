@@ -1,0 +1,46 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+nav a:last-child{
+    margin-right: 0;
+}
+nav{
+    padding:20px 0;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.new{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.new input{
+    display: block;
+    /* margin: 0 auto; */
+    ;
+    margin-bottom: 10px;
+    text-align: center;
+    
+    
+    
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+    
+    
+}

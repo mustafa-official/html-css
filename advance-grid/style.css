@@ -1,0 +1,19 @@
+.item{
+    background-color: blueviolet;
+    border: 2px solid rgb(97, 224, 114);
+    border-radius: 5px;
+
+    
+}
+body{
+    width: 800px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    
+}
+
+

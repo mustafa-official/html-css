@@ -1,0 +1,17 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 5px;
+	grid-template-rows: repeat(3, 200px) 25px 25px;
+}
+.box{
+    background-color: cadetblue;
+    
+}
+#box-1 {
+	grid-row: span 5;
+	height: auto;
+}
+#box-11, #box-12 {
+	grid-column: span 3;
+}

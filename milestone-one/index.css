@@ -1,0 +1,12 @@
+.bg-img{
+    height: 400px;
+    background-image: url(icon.png);
+    background-repeat:no-repeat;
+    /* background-repeat: repeat-y; */
+    background-size:;
+    background-color: ;
+    
+}
+p{
+    color:blue
+}

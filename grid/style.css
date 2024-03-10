@@ -1,0 +1,19 @@
+div{
+    border: 2px solid blueviolet;
+}
+.new{
+    height: 100vh;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+.islam{
+    display: grid;
+    /* grid-template-rows: 100px 150px 150px; */
+    /* grid-template-columns: repeat(4, 1fr) 2fr; */
+    /* grid-template-columns: 100px auto 100px; */
+    grid-template-columns:200px 100px;
+   
+    
+    
+}

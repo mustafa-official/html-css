@@ -1,0 +1,16 @@
+img{
+    width: 100%;
+    /* box-shadow: 10px 10px 10px; */
+    filter: drop-shadow(10px 10px 10px);
+    /* height: 100vh;
+    object-fit: cover; */
+    
+}
+.myImg{
+    height: 90vh;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}

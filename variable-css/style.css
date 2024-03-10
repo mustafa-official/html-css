@@ -1,0 +1,43 @@
+:root{
+    --primary-text-color: rgb(17, 185, 121);
+    --primary-font: 10px;
+   --primary-background: linear-gradient(45deg, blueviolet, rgb(31, 184, 31));
+}
+.box{
+    
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: var(--primary-background);
+}
+
+p{
+    color: var(--primary-text-color);
+    font-size: 20px;
+}
+.red{
+    color: var(--primary-text-color);
+}
+.a{
+    color: var(--primary-text-color);
+}
+.b{
+    color: var(--primary-text-color);
+}
+.c{
+    color: var(--primary-text-color);
+}
+
+.container{
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 20%  calc(100% - 20% - 20px);
+    grid-template-rows: 400px;
+}
+.sidebar{
+    background: var(--primary-background);
+}
+.main{
+    background: var(--primary-background);
+}
